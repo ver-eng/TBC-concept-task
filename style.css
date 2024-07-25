@@ -12,6 +12,13 @@ body {
   font-weight: 400;
   line-height: 1.7;
 }
+.global-padding {
+  padding: 0 4.7rem;
+}
+.complect-container {
+  max-width: 111rem;
+  margin: 0 auto;
+}
 /* Navigation */
 .all-header-parts {
   max-width: 111rem;
@@ -130,7 +137,7 @@ body {
 }
 .concept-div {
   height: 37.6rem;
-  width: 110rem;
+  max-width: 110rem;
   border-radius: 0.6rem;
   overflow: hidden;
   margin: 0 auto;
@@ -173,4 +180,126 @@ body {
 .follow-btn:hover {
   background: linear-gradient(15deg, rgb(50, 149, 206), rgb(50, 149, 206));
   cursor: pointer;
+}
+/* Section two */
+
+.section-two,
+.section-three {
+  padding: 6rem 0;
+  background-color: #f9fafa;
+}
+.big-message {
+  max-width: 111rem;
+  margin: 0 auto;
+}
+.big-message-para {
+  font-size: 3.6rem;
+  color: #141719;
+  font-weight: 500;
+  line-height: 1.5;
+}
+/* Section three */
+.complect-heading {
+  margin-bottom: 3.6rem;
+  color: #141719;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: TBCX, sans-serif;
+}
+.all-gallery {
+  height: 54.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+}
+.complect-left-part {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* background-color: red; */
+}
+.complect-right-part {
+  /* background-color: green; */
+}
+.parent-box {
+  overflow: hidden;
+  border-radius: 0.8rem;
+}
+.img-box {
+  border-radius: 0.8rem;
+  transition: transform 0.5s ease;
+  padding: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.box-one {
+  height: 25.6rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(31, 28, 28, 0.5),
+      rgba(31, 28, 28, 0.5)
+    ),
+    url("photos/digital.png");
+  background-size: cover;
+  background-position: center;
+}
+.box-two {
+  height: 25.6rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(31, 28, 28, 0.5),
+      rgba(31, 28, 28, 0.5)
+    ),
+    url("photos/premium.png");
+  background-size: cover;
+  background-position: center;
+}
+.box-three {
+  background-color: red;
+  height: 54.2rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(31, 28, 28, 0.5),
+      rgba(31, 28, 28, 0.5)
+    ),
+    url("photos/third.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-box:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.text {
+}
+.text-left {
+}
+.text-right {
+}
+.service-type {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.more-btn {
+  color: #fff;
+  border: none;
+  background-color: transparent;
+  transition: opacity 0.4s ease;
+}
+.more-btn:hover {
+  opacity: 0.4;
+}
+.see-more-link,
+.see-more-link:link,
+.see-more-link:active {
+  color: #fff;
+  text-decoration: underline;
+  font-size: inherit;
+}
+.see-more-link:hover {
+  text-decoration: none;
 }
