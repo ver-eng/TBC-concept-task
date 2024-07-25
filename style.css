@@ -120,8 +120,13 @@ body {
 
 /* Section One */
 .section-one {
-  /* width: 100vw; */
-  /* height: 200px; */
+  background-color: #f9fafa;
+  padding-bottom: 6rem;
+}
+.main-span {
+  max-width: 111rem;
+  margin: 0 auto;
+  padding: 2.4rem 0 5.6rem 0;
 }
 .concept-div {
   height: 37.6rem;
@@ -137,5 +142,35 @@ body {
     ),
     url("photos/ze324k50.yq4Become-2.webp");
   background-repeat: no-repeat;
+  padding: 9.5rem;
 }
-/* #f9fafa */
+.concept-div-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.6rem;
+  max-width: 54rem;
+  color: #fff;
+}
+.concept-para {
+  margin-bottom: 0.8rem;
+}
+.follow-btn {
+  padding: 1.6rem 2.4rem;
+  background: linear-gradient(15deg, #001682, #3240e5);
+  border: none;
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  transition: background 2s ease;
+}
+
+.follow-btn:hover {
+  background: linear-gradient(15deg, rgb(50, 149, 206), rgb(50, 149, 206));
+  cursor: pointer;
+}
