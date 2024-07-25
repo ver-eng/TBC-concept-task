@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: TBCX, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+/* Navigation */
+.all-header-parts {
+  max-width: 111rem;
+  height: 7.9rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-text {
+  color: #555f62;
+}
+.nav {
+  margin-right: 3rem;
+}
+.nav-list {
+  display: flex;
+  gap: 3.5rem;
+  justify-content: space-between;
+}
+.nav-list-item {
+  list-style: none;
+}
+.nav-link,
+.nav-link:link,
+.nav-link:active {
+  text-decoration: none;
+  color: #222;
+}
+.nav-link:hover,
+.nav-link:visited {
+  cursor: pointer;
+}
+.third-part {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.search-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #555f62;
+  transition: color 0.7s ease;
+}
+.search-icon:hover {
+  color: #007aff;
+  cursor: pointer;
+}
+.language {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.1rem;
+  border-radius: 0.6rem;
+  transition: background-color 0.7s ease;
+  position: relative;
+}
+.eng-box {
+  background-color: #fff;
+  border: 1px solid #f0f5f5;
+  box-shadow: 1px 1px 5px #f0f5f5;
+  padding: 1rem 1.9rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  top: 105%;
+  left: 0;
+  display: none;
+}
+.eng-box:hover {
+}
+.language:hover {
+  background-color: #f0f5f5;
+  cursor: pointer;
+}
+.active {
+  display: block;
+}
+.nav-btn {
+  background-color: inherit;
+  border: none;
+  color: #182cc0;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  transition: color 0.7s ease;
+}
+.nav-btn:hover {
+  cursor: pointer;
+  color: #007aff;
+}
+.btn-text {
+  padding-left: 1rem;
+}
+
+.lang-icon {
+  color: #555f62;
+  height: 1.6rem;
+  width: 1.6rem;
+}
+.lang {
+  font-weight: 700;
+  color: #555f62;
+}
+
+/* Section One */
+.section-one {
+  /* width: 100vw; */
+  /* height: 200px; */
+}
+.concept-div {
+  height: 37.6rem;
+  width: 110rem;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  margin: 0 auto;
+
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(31, 28, 28, 0.5),
+      rgba(31, 28, 28, 0.5)
+    ),
+    url("photos/ze324k50.yq4Become-2.webp");
+  background-repeat: no-repeat;
+}
+/* #f9fafa */
