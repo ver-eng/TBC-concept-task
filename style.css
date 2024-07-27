@@ -11,6 +11,7 @@ body {
   font-family: TBCX, sans-serif;
   font-weight: 400;
   line-height: 1.7;
+  overflow-x: hidden;
 }
 .global-padding {
   padding: 0 4.7rem;
@@ -18,7 +19,8 @@ body {
 .complect-container,
 .three-box-container,
 .main-span,
-.big-message {
+.big-message,
+.top-part {
   max-width: 111rem;
   margin: 0 auto;
 }
@@ -186,7 +188,8 @@ body {
 
 .section-two,
 .section-three,
-.section-four {
+.section-four,
+.section-five {
   padding: 6rem 0;
   background-color: #f9fafa;
 }
@@ -328,4 +331,85 @@ body {
   font-weight: 500;
   color: #555f62;
   line-height: 1.7;
+}
+/* SECTION 5 */
+.each-offer {
+  border: 1px solid #e1e4e5;
+  border-radius: 0.8rem;
+}
+.top-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.6rem;
+}
+.offer-heading {
+  color: #141719;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.offer-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+.offers {
+  display: flex;
+  gap: 3rem;
+  margin-left: 11.8rem;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+  /* overflow-x: auto; */
+  overflow-x: scroll;
+  white-space: nowrap;
+  cursor: grab;
+  scrollbar-width: none;
+  /* -ms-overflow-style: none; */
+}
+.offer-logo {
+  width: 7.8rem;
+  height: 5.6rem;
+  border-radius: 6px 0 0 6px;
+}
+.img-offer {
+  position: relative;
+}
+.logo-box {
+  border-radius: 6px 0 0 6px;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 1.6rem;
+}
+.offer-img-box {
+  width: 41.98rem;
+  height: 25.69rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+.each-img {
+  /* width: 35.8rem; */
+  height: 102%;
+  transition: transform 0.5s ease;
+  /* border-radius: 0.8rem; */
+}
+.each-img:hover {
+  transform: translateY(-5px);
+}
+.offer-description {
+  padding: 2.8rem;
+}
+.offer-para {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #6f787b;
+  margin-bottom: 0.4rem;
+}
+.offer-cashback {
+  font-size: 1.6rem;
+  color: #141719;
+  margin-top: 0;
+  font-weight: 700;
+  line-height: 3;
 }
