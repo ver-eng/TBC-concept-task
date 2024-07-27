@@ -352,13 +352,15 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
+.offers-container {
+  position: relative;
+}
 .offers {
   display: flex;
   gap: 3rem;
   margin-left: 11.8rem;
   padding-bottom: 4rem;
   margin-bottom: 4rem;
-  /* overflow-x: auto; */
   overflow-x: scroll;
   white-space: nowrap;
   cursor: grab;
@@ -381,14 +383,15 @@ body {
   top: 1.6rem;
 }
 .offer-img-box {
-  width: 41.98rem;
+  width: 41.9828rem;
+  width: 100%;
   height: 25.69rem;
   margin-bottom: 2rem;
   overflow: hidden;
   border-radius: 0.8rem 0.8rem 0 0;
 }
 .each-img {
-  /* width: 35.8rem; */
+  /* width: ; */
   height: 102%;
   transition: transform 0.5s ease;
   /* border-radius: 0.8rem; */
