@@ -611,3 +611,10 @@ body {
   font-weight: 400;
   line-height: 1.7;
 }
+.logo-text2 {
+  color: #141719;
+}
+/* Footer */
+.icon {
+  width: 20px;
+}
