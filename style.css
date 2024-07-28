@@ -615,6 +615,62 @@ body {
   color: #141719;
 }
 /* Footer */
+.footer {
+  border-bottom: 1px solid #eef1f1;
+}
 .icon {
-  width: 20px;
+  width: 1.3rem;
+}
+.footer-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 3.2rem;
+  max-width: 111rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.each-box-item {
+  list-style: none;
+}
+.each-box-link {
+  text-decoration: none;
+}
+.footer-each-box-last {
+  grid-column: 4/5;
+}
+
+.each-box-link,
+.each-box-link:link,
+.each-box-link:active {
+  color: #555f62;
+  display: inline-block;
+  font-size: inherit;
+  line-height: 1.7;
+  padding-bottom: 2rem;
+}
+
+.soc-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  /* color: #555f62; */
+  /* color: black; */
+  /* padding: 1rem; */
+}
+.last-div {
+  max-width: 111rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.last,
+.last-para {
+  font-size: 1.2rem;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  color: #555f62;
+}
+
+.last-span {
+  margin-right: 2rem;
 }
